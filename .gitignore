@@ -1,0 +1,73 @@
+*.iml
+.gradle
+.gradle/
+.DS_Store
+/build
+/captures
+/obj
+.externalNativeBuild
+.cxx
+/*/build
+
+#built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+out/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Windows thumbnail db
+Thumbs.db
+
+# Android Studio
+#.idea/workspace.xml - remove # and delete .idea if it better suit your needs.
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.navigation
+output.json
+
+
+
+# Log Files
+*.log
+
+# Android Studio
+/*/build/
+/*/local.properties
+/*/out
+/*/*/build
+/*/*/production
+captures/
+.navigation/
+*.ipr
+*~
+*.swp
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+### AndroidStudio Patch ###
+
+!/gradle/wrapper/gradle-wrapper.jar
+
+app/google-services.json
+vcs.xml
